@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <title>Tarkon</title>
+  </head>
+
+  <body>
+    <header id="#headerTop">
+      <div class="container">
+        <div class="header">
+        
+                <!-- burger -->
+
+          <!-- <div class="header-burger">
+          <button class="burger"></button>
+          </div> -->
+          <a href="#">
+            <img src="images/logo/logo.svg" alt="logo" class="logo">
+          </a>
+          <nav>
+            <ul class="header-nav">
+              <li><a href="#" class="equipment">Оборудование</a></li>
+              <li><a href="#" class="solutions">Решения</a></li>
+              <li><a href="#" class="Partners">Партнерам</a></li>
+              <li><a href="#" class="service">Сервис</a></li>
+              <li><a href="#" class="Equipment-order">Заказ&nbsp;оборудования</a></li>
+              <li><a href="#" class="About-company">О&nbsp;компании</a></li>
+            </ul>
+          <div class="social-media">
+            <a href="#" class="calculation-btn">Запрос&nbsp;расчета</a>
+            <a href="#" class="news-btn">Новости</a>
+            <img src="./images/icons/search.svg" alt="Поиск" class="search-btn">
+          </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div class="bg">
+      <div class="container">
+        <ul class="breadcrumbs">
+          <li><a href="#">Главная</a></li>
+          <li>></li>
+          <li><a href="#">Запрос на разработку</a></li>
+        </ul>
+        <h1>Запрос<br>
+        на разработку</h1>
+      </div>
+    </div>
+    <div class="content">
+      <div class="container">
+        <main class="input-fields">
+          <form action="" class="form" id="add-form">
+            <div class="grid-box-one">
+              <div class="grid-item">
+                  <input class="personal-input" type="text" placeholder="Ваше имя *" required> 
+              </div>
+              <div class="grid-item">
+                <input class="personal-input" type="text" placeholder="Телефон *"> 
+              </div>
+              <div class="grid-item">
+                  <input class="personal-input" type="text" placeholder="Название компании *"> 
+              </div>
+              <div class="grid-item">
+                  <input class="personal-input" type="text" placeholder="Email *"> 
+              </div>
+            </div>
+            <div class="about-the-product">
+                <h3>Сведения о продукте</h3>
+              <div class="grid-box-two">
+                <div class="grid-item">
+                  <p>Размеры источника тепла (_×__мм)</p>
+                  <input class="personal-input" type="text" placeholder="__ × __"> 
+                </div>
+                <div class="grid-item">
+                  <p>Макс. допустимая температура источника тепла</p>
+                  <input class="personal-input" type="text" placeholder="°C"> 
+                </div>
+                <div class="grid-item">
+                  <p>Рассеиваемая тепловая мощность</p>
+                  <input class="personal-input" type="text" placeholder="Вт"> 
+                </div>
+                <div class="grid-item">
+                  <p>Температура окружающей среды</p>
+                  <input class="personal-input" type="text" placeholder="min - max °C"> 
+                </div>
+                <div class="grid-item">
+                  <p>Размеры области, доступной для установки КТТ над <br>
+                    источником тепла</p>
+                  <input class="personal-input" type="text" placeholder="_ × _ мм (В × ш × г)"> 
+                </div>
+                <div class="grid-item">
+                  <p>Размеры области, доступной для размещения 
+                    стока тепла</p>
+                  <input class="personal-input" type="text" placeholder="_ × _ мм (В × ш × г)"> 
+                </div>
+                <div class="grid-item">
+                  <p>Способ отвода тепла</p>
+                  <select class="select-input" placeholder="Выбрать из списка">
+                    <option value="">Естественная конвекция</option>
+                    <option value="">Вынужденная конвекция</option>
+                    <option value="">Жидкостное охлаждение</option>
+                    <option value="">Радиация</option>
+                    <option value="">Иное</option>
+                  </select> 
+                </div>
+                <div class="grid-item">
+                  <p>Температура охлаждающей жидкости/воздуха</p>
+                  <input class="personal-input" type="text" placeholder="(если отлична от температуры среды)"> 
+                </div>
+                <div class="grid-item">
+                  <p>Давление окружающей среды</p>
+                  <input class="personal-input" type="text" placeholder=""> 
+                </div>
+                <div class="grid-item">
+                  <p>Расстояние от источника тепла до стока тепла</p>
+                  <input class="personal-input" type="text" placeholder="мм"> 
+                </div>
+                <div class="grid-item">
+                  <p>Расположение источника тепла по отношению <br>
+                  к стоку тепла</p>
+                  <input class="personal-input" type="text" placeholder="Выбрать из списка"> 
+                </div>
+              </div>
+            </div>
+              <div class="add-information">
+                <h3>Дополнительные сведения</h3>
+                <!-- <h3 class="add-information">Дополнительные сведения</h3> -->
+                  <input class="add-comments" type="text" placeholder="Коментарий">
+                  <button class="add-button">
+                    Прикрепить файл +
+                  </button>
+                    <p class="send-files">pdf, doc, docx, ppt, pptx, xis, epub, odp (до 15 мб)</p>
+                  <button class="send-a-request">
+                    Отправить запрос
+                  </button>
+              </div>
+          </form>
+        </main>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="footer-wrapper">
+            <div class="footer-top-colums">
+              <a href="#">
+                <img src="images/logo/logo-light.svg" alt="logo" class="logo-light">
+              </a>
+            </div>
+            <div class="footer-top-colums">
+              <div class="footer-top-text">
+                <div class="footer-contacts-two">
+                  <ul class="footer-list">
+                    <li>+ 7 (495) 748-74-83</li>
+                    <li>mailto:info@norsi-trans.ru</li>
+                    <li>127015, г. Москва, ул. Б. Новодмитровская, д. 12, стр. 15</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="footer-top-box">
+              <div class="footer-top-colums">
+                <div class="footer-top-text">
+                  <div class="footer-top-header">
+                    <a href="#" class="footer-equipment"><h3>Оборудование</h3></a>
+                      <ul class="footer-list">
+                        <li><a href="#">Серверное оборудование</a></li>
+                        <li><a href="#">Системы хранения данных</a></li>
+                        <li><a href="#">Высокопроизводительные вычисления</a></li>
+                        <li><a href="#">Рабочие станции</a></li>
+                      </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="footer-top-colums">
+                <div class="footer-top-text">
+                  <a href="#" class="footer-About-company"> <h3>О&nbsp;компании</h3></a>
+                  <ul class="footer-list">
+                    <li><a href="#">О компании</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Производственный комплекс</a></li>
+                    <li><a href="#">Российские серверы и системы хранения данных</a></li>
+                    <li><a href="#">Контакты</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="footer-top-colums">
+                <div class="footer-top-text">
+                    <a href="#" class="footer-Partners"><h3>Партнерам</h3></a>
+                  <ul class="footer-list">
+                    <li><a href="#">Партнерская программа</a></li>
+                    <li><a href="#">Партнеры, присоединившиеся к программе ОЕМ и брендирование выпускаемого оборудования</a></li>
+                    <li><a href="#">Контрактная разработка и производство медтехники</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="footer-top-colums">
+                <div class="footer-top-text">
+                  <a href="#" class="footer-solutions"><h3>Решения</h3></a>
+                  <ul class="footer-list">
+                    <li><a href="#">По отраслям</a></li>
+                    <li><a href="#">Карта прикладных решений</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="footer-top-colums">
+                <div class="footer-top-text">
+                  <a href="#" class="footer-Equipment-order"><h3>Заказ оборудования</h3></a>
+                  <ul class="footer-list">
+                    <li><a href="#">Конфигуратор</a></li>
+                    <li><a href="#">Способы доставки</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="footer-top-colums">
+                <div class="footer-top-text">
+                  <a href="#" class="footer-service"><h3>Сервис</h3></a>
+                  <ul class="footer-list">
+                    <li><a href="#">Сервисная поддержка</a></li>
+                    <li><a href="#">Проверить поддержку</a></li>
+                  </ul>
+                </div>
+              </div>       
+            </div>
+            <div class="footer-top-colums">
+              <div class="footer-top-text">
+                <div class="footer-contacts">
+                  <ul class="footer-list">
+                    <li>+ 7 (495) 748-74-83</li>
+                    <li>mailto:info@norsi-trans.ru</li>
+                    <li>127015, г. Москва, ул. Б. Новодмитровская, д. 12, стр. 15</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="bottom-wrapper">
+            <p>©1996-2023 ЗАО «НОРСИ-ТРАНС» Никакая информация с данного сайта не может быть скопирована, распространена либо передана любым способом для коммерческого использования без письменного согласия правообладателя.</p>
+            <p>Политика обработки персональных данных</p>
+            <p>Разработано</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <a href="#headerTop" class="button-up hidden" id="btnUp">Наверх</a>
+
+            <!-- modal -->
+
+    <!-- <div class="modal">
+      <ul class="header-nav">
+        <li><a href="#" class="equipment">Оборудование</a></li>
+        <li><a href="#" class="solutions">Решения</a></li>
+        <li><a href="#" class="Partners">Партнерам</a></li>
+        <li><a href="#" class="service">Сервис</a></li>
+        <li><a href="#" class="Equipment-order">Заказ&nbsp;оборудования</a></li>
+        <li><a href="#" class="About-company">О&nbsp;компании</a></li>
+      </ul>
+      <button class="burger-close"></button>
+    </div> -->
+    <script src="scripts/main.js">
+    </script>
+  </body>
+</html>
